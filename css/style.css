@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    background-color:#fff;
+    color:#555;
+    font-family: 'Kaushan Script',arial;
+    font-weight: 300;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.43),rgba(226, 19, 19, 0.46)),url(img/tom-pumford-8VU4ntHjOys-unsplash.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    
+}
+.header-text{
+    position: absolute;
+    color:aliceblue;
+    word-spacing: 30px;
+    font-size: 70px;
+    top:50%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    
+  
+}
+.main-nav{
+    float:right;
+    list-style: none;
+}
+.main-nav li{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 4px;
+    margin-top:15px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    color: cornflowerblue;
+}
