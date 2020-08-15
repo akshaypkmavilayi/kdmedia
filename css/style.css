@@ -6,6 +6,7 @@
 html{
     font-family: 'pt serif',serif;
 }
+
 nav{
     float: right;
     margin:5px 3px 0px 0px;
@@ -170,14 +171,6 @@ img{
     left:70%;
     transform: translate(-40%);
 }
-.facebook:link,
-.faccebook:active{
-    color:aliceblue;
-}
-.facebook:hover,
-.facebook:visited{
-    color:aliceblue;
-}
 .instagram,
 .link-insta{
     height:40px;
@@ -196,58 +189,32 @@ img{
     margin-bottom: 40px;
    
 }
-@media screen and (min-width:300px){
+
+
+@media screen and (max-width:990px){
     h1{
         letter-spacing: 15px;
         font-size:40px;
     }
-    .header-button{
-        
-        display: inline-block;
-        font-size:15px;
-        width:150px;
-        padding-top: 3px;
-        padding:3px;
-    }
-    .youtube-icon{
-        padding-top:3px;
-        float:left;
-        height: 30px;
-        width:30px;
-    }
-    nav{
-        float:left;
-    
-    }
-  
-    .col-grid{
-        display: grid;
-    }
-   
     .col-sm-3{
-        display: grid;
         position: absolute;
         top:420%;
-        
+        display:block;
+    }
+    .row-nav{
+        display: block;
     }
     .facebook{
-        height:20px;
-        width:20px;
+        left:70%;
         
     }
     .instagram{
-        top:432%;
-        left:72%;
-        height:35px;
-        width:35px;
-       
-      
+        left:80%;
     }
     .twitter{
-        top:442%;
-        left:73%;
-        height:35px;
-        width:35px;
+        left:90%;
     }
 }
-    
+
+
+ 
