@@ -159,35 +159,95 @@ img{
 }
 .col-sm-3{
     position: absolute;
-    top:305%;
+    top:290%;
     padding-left:0;
     
 }
 .facebook,
 .link-fb{
-    height:20px;
-    width:20px;
-    left:40%;
+    height:40px;
+    width:40px;
+    left:70%;
     transform: translate(-40%);
+}
+.facebook:link,
+.faccebook:active{
+    color:aliceblue;
+}
+.facebook:hover,
+.facebook:visited{
+    color:aliceblue;
 }
 .instagram,
 .link-insta{
-     width:20px;
-    left:45%;
+    height:40px;
+     width:40px;
+    left:75%;
     transform: translate(-45%);
 }
 .twitter,
 .link-twitter{
-     width:20px;
-    left:50%;
+    height:40px;
+     width:40px;
+    left:80%;
     transform: translate(-50%);
 }
 .iframe-box{
     margin-bottom: 40px;
    
 }
-@media screen and(max-width:100px){
-   h1{
-       font-size:10px;
+@media screen and (min-width:300px){
+    h1{
+        letter-spacing: 15px;
+        font-size:40px;
+    }
+    .header-button{
+        
+        display: inline-block;
+        font-size:15px;
+        width:150px;
+        padding-top: 3px;
+        padding:3px;
+    }
+    .youtube-icon{
+        padding-top:3px;
+        float:left;
+        height: 30px;
+        width:30px;
+    }
+    nav{
+        float:left;
+    
+    }
+  
+    .col-grid{
+        display: grid;
+    }
+   
+    .col-sm-3{
+        display: grid;
+        position: absolute;
+        top:420%;
+        
+    }
+    .facebook{
+        height:20px;
+        width:20px;
+        
+    }
+    .instagram{
+        top:432%;
+        left:72%;
+        height:35px;
+        width:35px;
+       
+      
+    }
+    .twitter{
+        top:442%;
+        left:73%;
+        height:35px;
+        width:35px;
     }
 }
+    
