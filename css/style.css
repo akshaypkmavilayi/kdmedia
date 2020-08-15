@@ -144,6 +144,7 @@ img{
 .soc-ico{
     font-size: 10px;
 }
+/*
 .nav-ico{
     margin-left: 500px;
     margin-right: 700px;
@@ -152,5 +153,41 @@ img{
     width:30px;
     
 }
-
-
+*/
+.row-nav{
+    padding:0;
+}
+.col-sm-3{
+    position: absolute;
+    top:305%;
+    padding-left:0;
+    
+}
+.facebook,
+.link-fb{
+    height:20px;
+    width:20px;
+    left:40%;
+    transform: translate(-40%);
+}
+.instagram,
+.link-insta{
+     width:20px;
+    left:45%;
+    transform: translate(-45%);
+}
+.twitter,
+.link-twitter{
+     width:20px;
+    left:50%;
+    transform: translate(-50%);
+}
+.iframe-box{
+    margin-bottom: 40px;
+   
+}
+@media screen and(max-width:100px){
+   h1{
+       font-size:10px;
+    }
+}
